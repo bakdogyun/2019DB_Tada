@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>타다에 로그인</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+	<!-- 부트스트랩 -->
+	<link href="bootstrap.min.css" rel="stylesheet" media="screen">
+	<style type="text/css">
+
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div calss="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<img alt="Brand" src="https://tadatada.com/static/images/btn_home_logo@4x.png" width="80">
+				</a>
+			</div>
+		<div>
+			<ul class="nav navbar-nav navbar-right">
+				 <li class="active"><a href="login.html" >로그인</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">타다</a>
+</nav>
+
+<div class= 'container mt-5'>
+	<form method="post" action="./login_ok.php">  <div class="form-group">
+		<label for="exampleInputEmail1">전화번호</label>
+		<input style="width:400px;" type="int" class="form-control" name='phone' placeholder="Enter phone">
+		<small id="emailHelp" class="form-text text-muted">'-'를 제외하고, 앞의  0을 제외하고 입력해주세요</small>
+	  </div>
+	  <div class="form-group">
+		<label for="exampleInputPassword1">Password</label>
+		<input style="width:400px;" type="password" class="form-control" name = 'userpw' placeholder="Password">
+	  </div>
+	  <button type="submit" class="btn btn-primary">로그인</button>
+
+	</form>
+</div>
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>

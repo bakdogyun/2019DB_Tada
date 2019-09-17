@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>타다</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <!-- 부트스트랩 -->
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+
+</style>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div calss="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img alt="Brand" src="https://tadatada.com/static/images/btn_home_logo@4x.png" width="80">
+          </a>
+        </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">홈</a></li>
+          <li><a href="call.php">호출하기</a></li>
+          <li><a href="log.php">사용내역</a></li>
+          <li><a href="card.html">카드관리</a></li>
+          <li><a href="setting.html">정보수정</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+           <li><a href="login.html">로그인</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <div class="container">
+      <form>
+        <h1>타다에 가입하기</h1>
+        <form action="insert.php" method="INSERT">
+            <div class="form-group">
+                <label for="exampleInputEmail1">이메일 주소</label>
+                <input  type='Email' name='Email' class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">비밀번호</label>
+                <input  type='Password' name='PW' class="form-control" id="exampleInputPassword1" placeholder="암호">
+            </div>
+
+            <button type="submit" class="btn btn-default">가입하기</button>
+      </form>
+    <style type="text/css">
+           .container {
+             padding-top: 70px;
+           }
+         </style>
+    </div>
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
